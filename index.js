@@ -4,10 +4,7 @@ const cors = require('cors')
 require('dotenv').config()
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://martisjoey:1234hvhv1234HVP!@mongomongoose.xh8rx.mongodb.net/', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+
 
 app.use(cors())
 app.use(express.static('public'))
